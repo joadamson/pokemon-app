@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background: #efefbb;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_block {
+    width: 320px;
+    position: absolute;
+    left: -22%;
+    background: #fb6c6c;
+    border-bottom-right-radius: 40px;
+    text-align: center;
+    color: #FFF;
+    top: -22%;
+    transition: .5s ease;
+    position: fixed;
+}
+
+.search_block i {
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.search_input {
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid gainsboro;
+    margin-bottom: 20px;
+    font-size: 18px;
+    outline: none;
+}
+
+.search_block:hover {
+    top: 0;
+    left: 0;
+}
+
+.poke_container {
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    max-width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.pokemon {
+    width: 160px;
+    background: #eee;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 3px 15px rgba(100, 100, 100, .5);
+}
+
+.pokemon .img-container {
+    width: 160px;
+    height: 160px;
+}
+
+.pokemon .img-container img {
+    width: 90%;
+    height: 90%;
+}
+
+.name {
+    padding: 5px 10px;
+    color: rgb(150, 150, 150);
+    border-radius: 30px;
+}
+
+.type {
+    padding: 5px 10px;
+    color: rgb(150, 150, 150);
+    border-radius: 30px;
+}
+
+.more {
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background: rgba(100, 100, 100, .5);
+    color: #FFf;
+}
+
+.pag_block button {
+    font-size: 30px;
+    color: #48d0b0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: .3s;
+}
+
+.pag_block i:hover {
+    color: #3eac93;
+    transition: .3s;
+    font-size: 40px;
+}
+
+.pag_block i:hover button {
+    width: 40px;
+    height: 40px;
+}
+
+.single_poke_container {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
+
+.pokemon-single {
+    width: 560px;
+}
+
+.pokemon_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
